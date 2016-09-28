@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="xtiney">
+  <head>
+  	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="xtiney">
+
+    <title>xtiney's site</title>
+
+    <link href="packages/bootstrap-3.3.6/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- font awesome -->
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">
+
+    <!-- custom css -->
+    <link href="css/index.css" rel="stylesheet">
+
+  </head>
+
+  <body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <h3>xtiney</h3>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#resume">Resume</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div><!--.nav-collapse -->
+      </div>
+    </nav>
+
+    <div class="container" ng-view></div>
+
+    <!-- Footer -->
+   <!--  <footer class="footer">
+      <div class="container">
+     		<p class="social-media">&copy; 2015-2016 Christine Pham</p>
+	      <ul class="list-inline">
+	        <li>
+	          <a href="https://github.com/christinepham" class="btn-social btn-outline" target="_blank"><i class="fa fa-fw fa-github"></i></a>
+	        </li>
+	        <li>
+	          <a href="https://bitbucket.org/xtiney/" class="btn-social btn-outline" target="_blank"><i class="fa fa-fw fa-bitbucket"></i></a>
+	        </li>
+	        <li>
+	          <a href="https://www.linkedin.com/in/christinetpham" class="btn-social btn-outline" target="_blank"><i class="fa fa-fw fa-linkedin"></i></a>
+	        </li>
+	        <li>
+	          <a href="mailto:christine.pham.t@gmail.com" class="btn-social btn-outline"><i class="fa fa-fw fa-google"></i></a>
+	        </li>
+	    	</ul>
+      </div>
+    </footer> -->
+
+    <!--jQuery and Bootstrap for collapsable navbar-->
+    <script src="packages/jquery-1.11.3.min.js"></script>
+    <script src="packages/bootstrap-3.3.6/dist/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-route.min.js" type="text/javascript"></script>
+
+    <!-- custom js -->
+    <script src="js/app.js" type="text/javascript"></script>
+    <script src="js/travel.js" type="text/javascript"></script>
+  </body>
+</html>
