@@ -1,0 +1,126 @@
+/*CSS File for Homepage */
+html, body {
+  overflow-x: hidden;
+  height: 100%;
+  width: 100%;
+}
+
+/* Mobile Friendly */
+@media screen and (min-width: 320px) {
+  .navbar-fixed-top {
+    background-color: #423B72;
+    padding: 0 15px;
+    -webkit-transition: padding .3s;
+    -moz-transition: padding .3s;
+    transition: padding .3s;
+  }
+
+  .navbar-fixed-top .navbar-header {
+    padding: 15px 0;
+    font-size: 2em;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    transition: all .3s;
+  }
+
+  .navbar-default .navbar-nav>li>a{
+    color: white;
+  }
+
+  .container {
+    margin: auto;
+    padding: 0 15px;
+    position: relative;
+    height: 100%;
+  }
+
+  h3 {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    color: #FFFFFF;
+    margin: auto;
+    text-transform: uppercase;
+    line-height: inherit;
+  }
+}
+
+
+/* Bio Section */
+.background {
+  height: 100%;
+  background: url(../img/home.jpg) no-repeat center center fixed; 
+  opacity: 0.4;
+}
+
+header h2 {
+  margin: auto;
+  text-align: center;
+}
+
+.quote {
+  margin-top: 25%;
+  background-color: white;
+  opacity: .95;
+  padding: 2.5%;
+}
+
+.arrow {
+  text-align: center;
+}
+
+.bio {
+  padding-top: 100px;
+  padding-bottom: 50px;
+  margin: auto;
+}
+
+h2 {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	color: black;
+	text-align: center;
+	text-transform: uppercase;
+	padding-bottom: 15px;
+}
+
+.profile-pic {
+	width: 100%;
+	height: 45%;
+	border-radius: 50%;
+	border: 5px solid black;
+}
+
+.intro {
+	text-align: justify;
+}
+
+/* Footer Section */
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  background-color: #6C6C6C;
+  /* Set the icon alignment */
+  text-align: center;
+}
+
+.social-media {
+  margin: 1px 0;
+}
+
+.btn-outline {
+    margin-top: 15px;
+    border: solid 2px transparent;
+    font-size: 20px;
+    color: #423B72;
+    background: 0 0;
+    transition: all .3s ease-in-out;
+}
+
+.btn-outline:hover,
+.btn-outline:focus,
+.btn-outline:active,
+.btn-outline.active {
+    border: solid 2px transparent;
+    color: #100132;
+}

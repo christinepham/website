@@ -1,0 +1,17 @@
+section .container {
+  padding-top: 100px;
+  padding-bottom: 50px;
+  margin: auto;
+}
+
+section h3 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: black;
+  text-align: center;
+  text-transform: uppercase;
+  padding-bottom: 15px;
+}
+
+.contact-box, .click {
+	text-align: center;
+}
