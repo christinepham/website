@@ -1,9 +1,12 @@
 # Personal Website
 Christine's portfolio webpage
 
-Made with AngularJS, basic CSS and HTML markup
+# Technology Used
+-AngularJS
+-CSS 
+-HTML
 
-Showcases:
+# Showcase
   - Bio
   - Resume
   - Contact Page
